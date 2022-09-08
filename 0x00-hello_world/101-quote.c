@@ -1,7 +1,3 @@
-[2:43 PM, 9/8/2022] +234 816 740 0761: task 7
-#!/bin/bash
-gcc -S -masm=intel $CFILE
-[2:43 PM, 9/8/2022] +234 816 740 0761: task 8
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
