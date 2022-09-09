@@ -1,5 +1,4 @@
 i#include <stdio.h>
-
 /**
  * main - Prints the alphabetic
  *
