@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *sh = "Alx";
+	char *sh = "main.h";
 
 	while (*sh)
 	{
