@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print numbers except 2 and 4
+ * print_most_numbers - prints
  *
- * Return: returns nothing
+ * Return: void
  */
+
 
 void print_most_numbers(void)
 {
-	int n;
+	char c;
 
-	for (n = 48; n < 58 n++)
-	(
- 	 if ((n -- 50) || (n -- 52))
-	 {
-	 continue;
-	 }
-	 putchar(n);
-	)
-putchar( 10);
-}	
+	for (c = '0'; c <= '9'; c++)
+	{
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
+	}
+	_putchar('\n');
+}
